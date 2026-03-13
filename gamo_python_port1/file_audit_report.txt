@@ -1,0 +1,149 @@
+path	kind	status	detail
+VALIDATION.md	text-doc	PASS	text chars=1494
+results\GAMO_example_run.pkl	other	PASS	bytes=341082
+requirements.txt	text-doc	PASS	text chars=66
+README.md	text-doc	PASS	text chars=3838
+CONVERSION_NOTES.md	text-doc	PASS	text chars=5209
+LICENSE	text-doc	PASS	text chars=1078
+original_matlab\README.md	text-doc	PASS	text chars=1189
+original_matlab\GAMO_Example.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+data\iJO1366.mat	mat-data	PASS	loadmat keys=4
+data\iAF1260Core.mat	mat-data	PASS	loadmat keys=4
+data\heterogeneous_rxn_list_iJO1366.mat	mat-data	PASS	loadmat keys=4
+data\heterogeneous_rxn_list_iAF1260Core.mat	mat-data	PASS	loadmat keys=4
+data\fluxData_Ishii_2007.xlsx	excel-data	PASS	read_excel rows_sampled=1 cols=4
+original_matlab\Additional Files\rev2irr.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\writeRxnRules.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\MiMBl.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\writeLogGeneRules.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\manualFVA.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\translatePop.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\globalSolverVariable.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\transformFitness.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\fd_rev2irr.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\selection.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\createRefFD.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\redTargetSpace.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\addNetworkBranches.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\mutation.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_RobustKnock.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_OptKnock.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_MiMBl.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_gcOpt.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_ATPsc.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\mating.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\initStructLP.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\initializePopulation.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\initializeFitFun.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\geneticAlgorithm.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\GAMO.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\fitFun_MiMBl.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\evalFitness_mem.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\evalFitness_comb.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\evalFitness.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\encode.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\deleteReactions.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\decode.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\compressModel.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\analyzePropProg.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\analyzeGAMOresults.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\adaptMutRate.m	matlab-source	SKIP	MATLAB source present; runtime not checked (MATLAB required)
+examples\__pycache__\GAMO_Example.cpython-311.pyc	other	PASS	bytes=7439
+examples\GAMO_Example.py	python	PASS	compiled+imported
+gamo\__pycache__\__init__.cpython-311.pyc	other	PASS	bytes=291
+gamo\__init__.py	python	FAIL	ModuleNotFoundError: No module named 'audit_mod_52'
+gamo\__pycache__\api.cpython-311.pyc	other	PASS	bytes=883
+original_matlab\Data Files\fluxData_Ishii_2007.xlsx	excel-data	PASS	read_excel rows_sampled=1 cols=4
+gamo\api.py	python	FAIL	ImportError: attempted relative import with no known parent package
+original_matlab\Data Files\heterogeneous_rxn_list_iAF1260Core.mat	mat-data	PASS	loadmat keys=4
+gamo\core\analysis_utils.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\core\ga_utils.py	python	FAIL	ImportError: attempted relative import with no known parent package
+original_matlab\Data Files\heterogeneous_rxn_list_iJO1366.mat	mat-data	PASS	loadmat keys=4
+gamo\core\target_utils.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\core\solver_utils.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\core\model_utils.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\core\__init__.py	python	PASS	compiled+imported
+gamo\core\types.py	python	FAIL	AttributeError: 'NoneType' object has no attribute '__dict__'
+gamo\core\__pycache__\__init__.cpython-311.pyc	other	PASS	bytes=278
+gamo\core\__pycache__\types.cpython-311.pyc	other	PASS	bytes=19389
+gamo\core\__pycache__\target_utils.cpython-311.pyc	other	PASS	bytes=51706
+gamo\core\__pycache__\solver_utils.cpython-311.pyc	other	PASS	bytes=37939
+gamo\core\__pycache__\model_utils.cpython-311.pyc	other	PASS	bytes=63788
+gamo\core\__pycache__\ga_utils.cpython-311.pyc	other	PASS	bytes=56295
+gamo\core\__pycache__\analysis_utils.cpython-311.pyc	other	PASS	bytes=9680
+gamo\additional_files\globalSolverVariable.py	python	PASS	compiled+imported
+gamo\additional_files\fd_rev2irr.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\additional_files\createRefFD.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\additional_files\addNetworkBranches.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\additional_files\MiMBl.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\additional_files\manualFVA.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\additional_files\rev2irr.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\additional_files\__init__.py	python	PASS	compiled+imported
+gamo\additional_files\__pycache__\__init__.cpython-311.pyc	other	PASS	bytes=297
+gamo\additional_files\__pycache__\rev2irr.cpython-311.pyc	other	PASS	bytes=299
+gamo\additional_files\__pycache__\MiMBl.cpython-311.pyc	other	PASS	bytes=303
+gamo\additional_files\__pycache__\manualFVA.cpython-311.pyc	other	PASS	bytes=316
+gamo\additional_files\__pycache__\globalSolverVariable.cpython-311.pyc	other	PASS	bytes=480
+gamo\additional_files\__pycache__\fd_rev2irr.cpython-311.pyc	other	PASS	bytes=305
+gamo\additional_files\__pycache__\createRefFD.cpython-311.pyc	other	PASS	bytes=322
+gamo\additional_files\__pycache__\addNetworkBranches.cpython-311.pyc	other	PASS	bytes=344
+gamo\gamo_files\analyzePropProg.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\analyzeGAMOresults.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\adaptMutRate.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\compressModel.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\decode.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\deleteReactions.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\__pycache__\__init__.cpython-311.pyc	other	PASS	bytes=222
+gamo\gamo_files\__pycache__\writeRxnRules.cpython-311.pyc	other	PASS	bytes=255
+gamo\gamo_files\__pycache__\writeLogGeneRules.cpython-311.pyc	other	PASS	bytes=268
+gamo\gamo_files\__pycache__\translatePop.cpython-311.pyc	other	PASS	bytes=251
+gamo\gamo_files\__pycache__\transformFitness.cpython-311.pyc	other	PASS	bytes=259
+gamo\gamo_files\__pycache__\selection.cpython-311.pyc	other	PASS	bytes=225
+gamo\gamo_files\__pycache__\redTargetSpace.cpython-311.pyc	other	PASS	bytes=257
+gamo\gamo_files\__pycache__\mutation.cpython-311.pyc	other	PASS	bytes=223
+gamo\gamo_files\__pycache__\multiObj_RobustKnock.cpython-311.pyc	other	PASS	bytes=275
+gamo\gamo_files\__pycache__\multiObj_OptKnock.cpython-311.pyc	other	PASS	bytes=266
+gamo\gamo_files\__pycache__\multiObj_MiMBl.cpython-311.pyc	other	PASS	bytes=257
+gamo\gamo_files\__pycache__\multiObj_gcOpt.cpython-311.pyc	other	PASS	bytes=257
+gamo\gamo_files\__pycache__\multiObj_ATPsc.cpython-311.pyc	other	PASS	bytes=388
+gamo\gamo_files\__pycache__\mating.cpython-311.pyc	other	PASS	bytes=219
+gamo\gamo_files\__pycache__\initStructLP.cpython-311.pyc	other	PASS	bytes=252
+gamo\gamo_files\__pycache__\initializePopulation.cpython-311.pyc	other	PASS	bytes=275
+gamo\gamo_files\__pycache__\initializeFitFun.cpython-311.pyc	other	PASS	bytes=260
+gamo\gamo_files\__pycache__\geneticAlgorithm.cpython-311.pyc	other	PASS	bytes=259
+gamo\gamo_files\__pycache__\GAMO.cpython-311.pyc	other	PASS	bytes=215
+gamo\gamo_files\__pycache__\fitFun_MiMBl.cpython-311.pyc	other	PASS	bytes=251
+gamo\gamo_files\__pycache__\evalFitness_mem.cpython-311.pyc	other	PASS	bytes=256
+gamo\gamo_files\__pycache__\evalFitness_comb.cpython-311.pyc	other	PASS	bytes=259
+gamo\gamo_files\__pycache__\evalFitness.cpython-311.pyc	other	PASS	bytes=243
+gamo\gamo_files\__pycache__\encode.cpython-311.pyc	other	PASS	bytes=223
+gamo\gamo_files\__pycache__\deleteReactions.cpython-311.pyc	other	PASS	bytes=328
+gamo\gamo_files\__pycache__\decode.cpython-311.pyc	other	PASS	bytes=292
+gamo\gamo_files\__pycache__\compressModel.cpython-311.pyc	other	PASS	bytes=322
+gamo\gamo_files\__pycache__\analyzePropProg.cpython-311.pyc	other	PASS	bytes=326
+gamo\gamo_files\__pycache__\analyzeGAMOresults.cpython-311.pyc	other	PASS	bytes=341
+gamo\gamo_files\__pycache__\adaptMutRate.cpython-311.pyc	other	PASS	bytes=317
+gamo\gamo_files\__init__.py	python	PASS	compiled+imported
+gamo\gamo_files\writeRxnRules.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\writeLogGeneRules.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\translatePop.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\transformFitness.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\selection.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\redTargetSpace.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\mutation.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\multiObj_RobustKnock.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\multiObj_OptKnock.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\multiObj_MiMBl.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\multiObj_gcOpt.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\multiObj_ATPsc.py	python	PASS	compiled+imported
+gamo\gamo_files\mating.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\initStructLP.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\initializePopulation.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\initializeFitFun.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\geneticAlgorithm.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\GAMO.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\fitFun_MiMBl.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\evalFitness_mem.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\evalFitness_comb.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\evalFitness.py	python	FAIL	ImportError: attempted relative import with no known parent package
+gamo\gamo_files\encode.py	python	FAIL	ImportError: attempted relative import with no known parent package

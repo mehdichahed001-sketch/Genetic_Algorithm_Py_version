@@ -1,0 +1,100 @@
+path	kind	status	detail
+VALIDATION.md	text-doc	PASS	text chars=1494
+requirements.txt	text-doc	PASS	text chars=66
+README.md	text-doc	PASS	text chars=3838
+LICENSE	text-doc	PASS	text chars=1078
+CONVERSION_NOTES.md	text-doc	PASS	text chars=5209
+original_matlab\README.md	text-doc	PASS	text chars=1189
+original_matlab\GAMO_Example.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+data\iJO1366.mat	mat-data	PASS	loadmat keys=4
+data\iAF1260Core.mat	mat-data	PASS	loadmat keys=4
+data\heterogeneous_rxn_list_iJO1366.mat	mat-data	PASS	loadmat keys=4
+data\heterogeneous_rxn_list_iAF1260Core.mat	mat-data	PASS	loadmat keys=4
+data\fluxData_Ishii_2007.xlsx	excel-data	PASS	read_excel rows_sampled=1 cols=4
+gamo\__init__.py	python	PASS	compiled+imported:gamo
+examples\GAMO_Example.py	python	PASS	compiled+cli_help_ok
+original_matlab\GAMO Files\writeRxnRules.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\writeLogGeneRules.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\translatePop.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\transformFitness.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\selection.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\redTargetSpace.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\mutation.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_RobustKnock.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_OptKnock.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_MiMBl.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_gcOpt.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\multiObj_ATPsc.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\mating.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\initStructLP.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\initializePopulation.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\initializeFitFun.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\geneticAlgorithm.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\GAMO.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\fitFun_MiMBl.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\evalFitness_mem.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\evalFitness_comb.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\evalFitness.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\encode.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\deleteReactions.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\decode.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\compressModel.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\analyzePropProg.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\analyzeGAMOresults.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\GAMO Files\adaptMutRate.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Data Files\heterogeneous_rxn_list_iJO1366.mat	mat-data	PASS	loadmat keys=4
+original_matlab\Data Files\heterogeneous_rxn_list_iAF1260Core.mat	mat-data	PASS	loadmat keys=4
+original_matlab\Data Files\fluxData_Ishii_2007.xlsx	excel-data	PASS	read_excel rows_sampled=1 cols=4
+gamo\core\__init__.py	python	PASS	compiled+imported:gamo.core
+gamo\core\types.py	python	PASS	compiled+imported:gamo.core.types
+gamo\core\target_utils.py	python	PASS	compiled+imported:gamo.core.target_utils
+gamo\core\solver_utils.py	python	PASS	compiled+imported:gamo.core.solver_utils
+gamo\core\model_utils.py	python	PASS	compiled+imported:gamo.core.model_utils
+gamo\core\ga_utils.py	python	PASS	compiled+imported:gamo.core.ga_utils
+gamo\core\analysis_utils.py	python	PASS	compiled+imported:gamo.core.analysis_utils
+gamo\api.py	python	PASS	compiled+imported:gamo.api
+gamo\gamo_files\evalFitness_mem.py	python	PASS	compiled+imported:gamo.gamo_files.evalFitness_mem
+gamo\gamo_files\evalFitness_comb.py	python	PASS	compiled+imported:gamo.gamo_files.evalFitness_comb
+gamo\gamo_files\evalFitness.py	python	PASS	compiled+imported:gamo.gamo_files.evalFitness
+gamo\gamo_files\encode.py	python	PASS	compiled+imported:gamo.gamo_files.encode
+gamo\gamo_files\deleteReactions.py	python	PASS	compiled+imported:gamo.gamo_files.deleteReactions
+gamo\gamo_files\decode.py	python	PASS	compiled+imported:gamo.gamo_files.decode
+gamo\gamo_files\compressModel.py	python	PASS	compiled+imported:gamo.gamo_files.compressModel
+gamo\gamo_files\analyzePropProg.py	python	PASS	compiled+imported:gamo.gamo_files.analyzePropProg
+gamo\gamo_files\analyzeGAMOresults.py	python	PASS	compiled+imported:gamo.gamo_files.analyzeGAMOresults
+gamo\gamo_files\adaptMutRate.py	python	PASS	compiled+imported:gamo.gamo_files.adaptMutRate
+gamo\gamo_files\initStructLP.py	python	PASS	compiled+imported:gamo.gamo_files.initStructLP
+gamo\gamo_files\initializePopulation.py	python	PASS	compiled+imported:gamo.gamo_files.initializePopulation
+gamo\gamo_files\initializeFitFun.py	python	PASS	compiled+imported:gamo.gamo_files.initializeFitFun
+gamo\gamo_files\geneticAlgorithm.py	python	PASS	compiled+imported:gamo.gamo_files.geneticAlgorithm
+gamo\gamo_files\GAMO.py	python	PASS	compiled+imported:gamo.gamo_files.GAMO
+gamo\gamo_files\fitFun_MiMBl.py	python	PASS	compiled+imported:gamo.gamo_files.fitFun_MiMBl
+gamo\gamo_files\multiObj_gcOpt.py	python	PASS	compiled+imported:gamo.gamo_files.multiObj_gcOpt
+gamo\gamo_files\multiObj_ATPsc.py	python	PASS	compiled+imported:gamo.gamo_files.multiObj_ATPsc
+gamo\gamo_files\mating.py	python	PASS	compiled+imported:gamo.gamo_files.mating
+gamo\gamo_files\multiObj_OptKnock.py	python	PASS	compiled+imported:gamo.gamo_files.multiObj_OptKnock
+gamo\gamo_files\multiObj_MiMBl.py	python	PASS	compiled+imported:gamo.gamo_files.multiObj_MiMBl
+gamo\gamo_files\multiObj_RobustKnock.py	python	PASS	compiled+imported:gamo.gamo_files.multiObj_RobustKnock
+gamo\gamo_files\mutation.py	python	PASS	compiled+imported:gamo.gamo_files.mutation
+gamo\additional_files\globalSolverVariable.py	python	PASS	compiled+imported:gamo.additional_files.globalSolverVariable
+gamo\additional_files\fd_rev2irr.py	python	PASS	compiled+imported:gamo.additional_files.fd_rev2irr
+gamo\additional_files\createRefFD.py	python	PASS	compiled+imported:gamo.additional_files.createRefFD
+gamo\additional_files\addNetworkBranches.py	python	PASS	compiled+imported:gamo.additional_files.addNetworkBranches
+gamo\additional_files\MiMBl.py	python	PASS	compiled+imported:gamo.additional_files.MiMBl
+gamo\additional_files\manualFVA.py	python	PASS	compiled+imported:gamo.additional_files.manualFVA
+gamo\additional_files\rev2irr.py	python	PASS	compiled+imported:gamo.additional_files.rev2irr
+gamo\additional_files\__init__.py	python	PASS	compiled+imported:gamo.additional_files
+gamo\gamo_files\translatePop.py	python	PASS	compiled+imported:gamo.gamo_files.translatePop
+gamo\gamo_files\transformFitness.py	python	PASS	compiled+imported:gamo.gamo_files.transformFitness
+gamo\gamo_files\selection.py	python	PASS	compiled+imported:gamo.gamo_files.selection
+gamo\gamo_files\redTargetSpace.py	python	PASS	compiled+imported:gamo.gamo_files.redTargetSpace
+gamo\gamo_files\writeRxnRules.py	python	PASS	compiled+imported:gamo.gamo_files.writeRxnRules
+gamo\gamo_files\writeLogGeneRules.py	python	PASS	compiled+imported:gamo.gamo_files.writeLogGeneRules
+gamo\gamo_files\__init__.py	python	PASS	compiled+imported:gamo.gamo_files
+original_matlab\Additional Files\rev2irr.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\MiMBl.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\manualFVA.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\globalSolverVariable.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\fd_rev2irr.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\createRefFD.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
+original_matlab\Additional Files\addNetworkBranches.m	matlab-source	SKIP	source present; runtime not checked (MATLAB required)
